@@ -1,2 +1,7 @@
 *.z64
 .idea
+
+syms/game
+syms/init
+
+__pycache__

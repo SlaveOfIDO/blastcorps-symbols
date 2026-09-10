@@ -1,0 +1,9 @@
+# Config file for BlastCorps NTSC 1.1 Recompilation.
+[input]
+entrypoint = 0x802447C0
+force_entrypoint = true
+output_func_path = "RecompiledFuncs"
+
+# Paths are relative to the location of this config file.
+elf_path = "lib/blastcorps/game/build/game.us.v11.elf"
+rom_file_path = "baserom.us.v11.z64"

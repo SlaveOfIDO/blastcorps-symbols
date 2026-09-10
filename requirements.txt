@@ -1,0 +1,2 @@
+pyelftools==0.33
+tomlkit==0.15.1
