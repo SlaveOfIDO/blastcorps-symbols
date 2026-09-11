@@ -27,5 +27,6 @@ lib/blastcorps/baserom.$(VERSION).z64: baserom.$(VERSION).z64
 	cp baserom.$(VERSION).z64 lib/blastcorps/baserom.$(VERSION).z64
 
 clean:
+	make -C lib/blastcorps clean
 	rm -rf lib/N64Recomp/build
 	rm -rf syms
