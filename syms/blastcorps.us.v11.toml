@@ -70,6 +70,8 @@ functions = [
     { name = "___osProbeTLB", vram = 0x802225D0, size = 0xB8 },
     { name = "___osGetCause", vram = 0x80222690, size = 0xC },
     { name = "___osAtomicDec", vram = 0x802226A0, size = 0x58 },
+    { name = "___osDisableInt", vram = 0x80222700, size = 0x20 },
+    { name = "___osRestoreInt", vram = 0x80222720, size = 0x1C },
 ]
 
 
@@ -1444,6 +1446,7 @@ functions = [
     { name = "osPiGetCmdQueue", vram = 0x802E22F0, size = 0x28 },
     { name = "__osViGetCurrentContext", vram = 0x802E2320, size = 0xC },
     { name = "__osSpGetStatus", vram = 0x802E2330, size = 0xC },
+    { name = "bcopy", vram = 0x802E2340, size = 0x304 },
     { name = "__osSpSetStatus", vram = 0x802E2650, size = 0xC },
     { name = "__osSpSetPc", vram = 0x802E2660, size = 0x34 },
     { name = "__osSpRawStartDma", vram = 0x802E26A0, size = 0x8C },
